@@ -1,11 +1,8 @@
-/*assigns the text color #3D3D3D*/
-$hover-color: #00FF00;
-$text-color: #FF0000;
-
+/* nested hover */
 button {
-  color: $text-color;
-   &:hover{
-    color: $hover-color;
-  }
+	color: #FF0000;
 
+	&:hover {
+		color: #00FF00;
+	}
 }
