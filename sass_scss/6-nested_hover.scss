@@ -1,14 +1,9 @@
-/*nested hover*/
-
-.button {
-  background-color: #FF0000;
-  color: #FFFFFF;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  
+/* Nested Hover color*/
+$color-0: #FF0000;
+$color-1: #00FF00;
+button {
+  color: $color-0;
   &:hover {
-    background-color: #00FF00;
+    color: $color-1;
   }
 }
